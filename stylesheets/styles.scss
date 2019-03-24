@@ -1,0 +1,22 @@
+/* .btn {
+    white-space: nowrap;
+} */
+
+a.card:hover {
+    text-decoration: none;
+}
+
+.news-list li::before {
+    content: "・";
+    color: #fff;
+}
+
+@media screen and (max-width: 560px) {
+    #Adcarousel h1 {
+    font-size: 2rem;
+    }
+    #Adcarousel .btn {
+    margin-top: 0 !important;
+    }
+}
+
